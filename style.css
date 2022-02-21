@@ -1,0 +1,32 @@
+body {
+	background-color: #590D22;
+	color: #FFB3C1;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.number_guess {
+	padding: 4em;
+}
+
+.container {
+	background-color: #C9184A;
+	width: 250px 350px;
+	align-items: center;
+	margin: 5%;
+	/* position: relative; */
+	text-align: center;
+	padding: 1%;
+	padding-bottom: 1%;
+	border-radius: 10%;
+	/* border: 5%; */
+
+}
+
+.message {
+	font-weight: bolder;
+	padding-bottom: 1%;
+}
+
+.guessBtn {
+	background-color: #FF4D6D;
+}
