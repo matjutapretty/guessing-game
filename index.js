@@ -10,44 +10,18 @@ function guessBtnClicked() {
 
 	if (guessedNo < randomNumber) {
 		message.innerHTML = "Your guess is too low!";
-
-		setTimeout(function(){
-			message.innerHTML = "";
-		}, 3500);
-
 	} else if (guessedNo > randomNumber) {
 		message.innerHTML = "Your guess is too high!";
-		setTimeout(function(){
-			message.innerHTML = "";
-		}, 3500);
-
 	} else {
 		message.innerHTML =  `Correct, the secret number is ${guessedNo}!`;
+		reset();
 	}
-
 	setTimeout(function(){
 		message.innerHTML = "";
-	}, 3500);
-
-	// location.reload(forceGet);
-/* <meta http-equiv="refresh" content="guessedNo > randomNumber"/> */
+	}, 2500);
 }
-
-function reload() {
-	if (guessedNo = randomNumber) {
-		message.innerHTML = `Correct, the secret number is ${guessedNo}!`;
-
-		setTimeout(function(){
-			message.innerHTML = "";
-		}, 3500);
-	} else {
-		window.location.reload();
-	}
+function reset() {
+	randomNumber = Math.ceil((Math.random() * 100))
 }
-
-// window.location.reload();
-
-
 
 guessBtn.addEventListener('click', guessBtnClicked)
-// guessBtn.addEventListener('click', reload)
