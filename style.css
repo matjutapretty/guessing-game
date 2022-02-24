@@ -2,10 +2,16 @@ body {
 	background-color: #590D22;
 	color: #FFB3C1;
 	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-align: center;
+	font-size: 25px;
 }
 
 .number_guess {
-	padding: 4em;
+	/* padding: 4em; */
+	width: 70px;
+	height: 70px;
+	text-align: center;
+	font-size: 25px;
 }
 
 .container {
@@ -13,20 +19,23 @@ body {
 	width: 250px 350px;
 	align-items: center;
 	margin: 5%;
-	/* position: relative; */
 	text-align: center;
 	padding: 1%;
 	padding-bottom: 1%;
 	border-radius: 10%;
-	/* border: 5%; */
 
 }
 
 .message {
 	font-weight: bolder;
 	padding-bottom: 1%;
+	text-align: center;
 }
 
 .guessBtn {
 	background-color: #FF4D6D;
+	width: 70px;
+	height: 70px;
+	font-size: 20px;
+	margin: auto;
 }
