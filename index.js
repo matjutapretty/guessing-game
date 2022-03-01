@@ -18,7 +18,7 @@ function guessBtnClicked() {
 
         setTimeout(function() {
             location.reload()
-        }, 3000);
+        }, 5000);
 
 	}else if (guessedNo < randomNumber) {
 		message.innerHTML = "Your guess is too low!";
