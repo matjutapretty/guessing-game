@@ -39,7 +39,7 @@ function guessBtnClicked() {
 		message.innerHTML = "";
 		newGame()
 		message.innerHTML = 'New Game Started!!!'
-	}, 3000);
+	}, 5000);
 }
 }
 	newGame()
